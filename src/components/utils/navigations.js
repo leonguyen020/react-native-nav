@@ -26,5 +26,5 @@ export const DrawerNav = DrawerNavigator({
         screen: Calendars
     }
 },{
-    // initialRouteName: Home
+    initialRouteName: 'Home'
 })
