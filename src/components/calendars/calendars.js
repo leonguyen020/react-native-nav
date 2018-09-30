@@ -92,7 +92,7 @@ export default class CalendarPage extends Component {
 
   render() {
     let currentDate = moment().format("YYYY-MM-DD");
-    var { navigate } = this.props.navigation;
+    // var { navigate } = this.props.navigation;
     return (
       <View style={{flex: 2}}>
         <Agenda
